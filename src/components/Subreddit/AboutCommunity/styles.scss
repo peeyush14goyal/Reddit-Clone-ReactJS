@@ -1,0 +1,52 @@
+.aboutCommunity {
+  width: 310px;
+  background-color: white;
+  padding-bottom: 20px;
+}
+.aboutCommunity__header {
+  background-color: rgb(74, 190, 236);
+  color: white;
+  font-weight: bolder;
+  height: 40px;
+}
+.aboutCommunity__values {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-right: 10px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.aboutCommunity__createDiv {
+  font-size: 14px;
+  margin: 10px;
+}
+.aboutCommunity__createButton {
+  width: 90%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.aboutCommunity__desc {
+  font-size: 13px;
+  margin: 5px;
+}
+.aboutCommunity__numVal {
+  font-size: 15px;
+}
+.aboutCommunity__text {
+  padding: 8px;
+  font-size: 13px;
+}
+.aboutCommunity__options {
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}

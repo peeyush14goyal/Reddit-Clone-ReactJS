@@ -1,0 +1,31 @@
+.createPost {
+  min-width: 640px;
+  max-width: 640px;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.createPost__input {
+  height: 32px;
+  width: 470px;
+  background-color: lightgray;
+  border: none;
+  padding-left: 10px;
+}
+.createPost__img {
+  height: 35px;
+  border-radius: 50%;
+}
+.createPost__icon {
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.img__icon {
+  color: blue;
+}

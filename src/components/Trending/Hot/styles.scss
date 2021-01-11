@@ -1,0 +1,41 @@
+.trendingHot__header {
+  background: linear-gradient(
+    246.35deg,
+    rgb(99, 212, 195) 0%,
+    rgb(58, 140, 235) 100%
+  );
+  display: flex;
+  color: white;
+  width: 310px;
+  margin-top: 20px;
+  align-items: center;
+  font-size: 17px;
+  padding-right: 5px;
+}
+.trendingHot__haeaderImg {
+  height: 72px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+.trendingHot__names {
+  display: grid;
+  width: 315px;
+  grid-template-columns: 2fr 10fr;
+  :nth-child(n) {
+    background-color: white;
+    text-align: left;
+    margin-bottom: 2px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+.trendingHot__img {
+  border-radius: 50%;
+  height: 32px;
+  object-fit: contain;
+  margin: 5px;
+}
+.trendingHot__text {
+  padding-top: 10px;
+}

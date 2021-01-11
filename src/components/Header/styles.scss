@@ -1,0 +1,62 @@
+.header {
+  background-color: white;
+  padding-left: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+}
+.iconImg {
+  height: 50px;
+  object-fit: contain;
+}
+.spaceshipIcon {
+  height: 22px;
+  width: 22px;
+  fill: blue;
+  margin-right: 12px;
+}
+.header__home {
+  display: flex;
+  width: 200px;
+}
+.header__icons {
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.header__searchBox {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 400px;
+  background-color: lightgray;
+}
+.header__inputBox {
+  background-color: lightgray;
+  border: none;
+  outline: none;
+}
+.header__searchBox:hover {
+  background-color: white;
+  border: 1px solid black;
+  .header__inputBox {
+    background-color: white;
+  }
+}
+.header__iconCoin {
+  color: gold;
+}
+.header__coinDiv {
+  border-radius: 20px;
+  border: 1px solid gold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.header__lineDiv {
+  width: 2px;
+  height: 20px;
+  background-color: gray;
+}

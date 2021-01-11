@@ -1,0 +1,27 @@
+.showPosts {
+  width: 640px;
+  margin-top: 30px;
+}
+.postsTab {
+  background-color: white;
+  color: blue;
+  display: flex;
+  padding: 10px;
+}
+.postsTab__first {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  :nth-child(n) {
+    border-radius: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+    cursor: pointer;
+  }
+  :nth-child(n):hover {
+    background-color: lightgray;
+  }
+}
+.postsTab__icons {
+  margin-right: 10px;
+}

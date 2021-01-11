@@ -1,0 +1,8 @@
+.home {
+  margin: 0;
+}
+.home__content {
+  margin-left: 15%;
+  display: grid;
+  grid-template-columns: 6fr 1fr 4fr 1fr;
+}
