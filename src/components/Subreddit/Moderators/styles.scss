@@ -1,0 +1,57 @@
+.moderators {
+  margin-top: 20px;
+  width: 310px;
+  background-color: white;
+  padding-bottom: 30px;
+}
+.moderators__header {
+  background-color: rgb(74, 190, 236);
+  color: white;
+  font-weight: bolder;
+  height: 40px;
+}
+.moderators__text {
+  padding: 8px;
+  font-size: 13px;
+}
+.moderators__div {
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
+  color: rgb(74, 190, 236);
+}
+.moderators__mod {
+  padding: 5px;
+}
+.moderators__buttonDiv {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10%;
+  padding-right: 10px;
+  color: rgb(74, 190, 236);
+}
+.moderators__button {
+  width: 80%;
+  height: 30px;
+  border-radius: 20px;
+  border-color: rgb(74, 190, 236);
+  background-color: white;
+  color: rgb(74, 190, 236);
+  font-weight: bolder;
+  cursor: pointer;
+}
+.moderators__buttonIcon {
+  margin-right: 10px;
+}
+.moderators__viewAll {
+  text-align: right;
+  margin-top: 10px;
+  padding-right: 30px;
+}
+a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bolder;
+  color: rgb(74, 190, 236);
+}

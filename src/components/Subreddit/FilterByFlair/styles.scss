@@ -1,0 +1,32 @@
+.filterByFlair {
+  margin-top: 20px;
+  background-color: white;
+  width: 310px;
+}
+.filterByFlair__header {
+  background-color: rgb(74, 190, 236);
+  color: white;
+  font-weight: bolder;
+  height: 40px;
+}
+.filterByFlair__text {
+  padding: 8px;
+  font-size: 13px;
+}
+.filterByFlair__flair {
+  font-size: 12px;
+  border-radius: 20px;
+  background-color: rgb(219, 216, 216);
+  color: black;
+  outline: none;
+  margin: 5px;
+  border-color: gray;
+  outline-color: gray;
+  cursor: pointer;
+}
+.filterByFlair__div {
+  padding-top: 20px;
+  width: 300px;
+  align-items: center;
+  padding-bottom: 20px;
+}

@@ -7,6 +7,8 @@ import "./styles.scss";
 import { posts } from "../../mock_data/mock_data";
 import SubredditHeader from "../Subreddit/SubredditHeader";
 import AboutCommunity from "../Subreddit/AboutCommunity";
+import FilterByFlair from "../Subreddit/FilterByFlair";
+import Moderators from "../Subreddit/Moderators";
 
 const Home = () => {
   return (
@@ -22,6 +24,8 @@ const Home = () => {
         <div>
           <AboutCommunity />
           {/*<TrendingHot />*/}
+          <FilterByFlair />
+          <Moderators />
         </div>
       </div>
     </div>

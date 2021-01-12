@@ -12,7 +12,8 @@ const AboutCommunity = () => {
       <div className="aboutCommunity__desc">
         <text>
           Some Random text about community there is. Community Description is
-          written over here
+          written over here. Greater text needs to be added inside the community
+          to make it more like original
         </text>
         <div className="aboutCommunity__values">
           <div>
