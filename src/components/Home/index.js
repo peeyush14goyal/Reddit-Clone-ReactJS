@@ -9,6 +9,7 @@ import SubredditHeader from "../Subreddit/SubredditHeader";
 import AboutCommunity from "../Subreddit/AboutCommunity";
 import FilterByFlair from "../Subreddit/FilterByFlair";
 import Moderators from "../Subreddit/Moderators";
+import TrendingCommunities from "../Trending/Community";
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
           {/*<TrendingHot />*/}
           <FilterByFlair />
           <Moderators />
+          <TrendingCommunities />
         </div>
       </div>
     </div>

@@ -1,0 +1,44 @@
+.trendingCommunities {
+  width: 310px;
+  background-color: white;
+  margin-top: 20px;
+}
+.trendingCommunities_community {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.trendingCommunity_button {
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.trendingCommunities_img {
+  height: 32px;
+  object-fit: contain;
+  margin: 5px;
+  border-radius: 50%;
+}
+.trendingCommunities_members {
+  color: darkgray;
+  font-size: 12px;
+}
+.trendingCommunities__name {
+  font-size: 14px;
+}
+.tredningCommunities__header {
+  font-size: 16px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.trendingCommunities__imgDiv {
+  width: 1px;
+}

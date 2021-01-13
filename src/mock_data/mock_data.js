@@ -72,3 +72,36 @@ export const trendingHot = [
     name: "MurderedByWords",
   },
 ];
+
+export const trendingCommunties = [
+  {
+    id: 1,
+    name: "PetDamnCat",
+    members: 120458,
+  },
+  {
+    id: 2,
+    name: "indianMemers",
+    members: 2454354,
+  },
+  {
+    id: 3,
+    name: "javascript",
+    members: 354254,
+  },
+  {
+    id: 4,
+    name: "language",
+    members: 3584,
+  },
+  {
+    id: 5,
+    name: "Aliens",
+    members: 87343,
+  },
+  {
+    id: 6,
+    name: "Humans",
+    members: 1531,
+  },
+];
