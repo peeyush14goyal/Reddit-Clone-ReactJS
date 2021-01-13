@@ -32,7 +32,9 @@ const Header = () => {
             <circle cx="16" cy="4" r="3" fill="none"></circle>
           </svg>
         </div>
-        <div>Home</div>
+        <div>
+          <b>Home</b>
+        </div>
       </div>
       <div className="header__searchBox">
         <FontAwesomeIcon icon={faSearch} className="header__icons" />

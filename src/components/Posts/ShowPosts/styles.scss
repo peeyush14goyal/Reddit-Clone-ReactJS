@@ -4,9 +4,12 @@
 }
 .postsTab {
   background-color: white;
-  color: blue;
+  color: gray;
   display: flex;
   padding: 10px;
+}
+.poststab:active {
+  color: blue;
 }
 .postsTab__first {
   display: flex;

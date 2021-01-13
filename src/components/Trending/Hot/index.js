@@ -12,7 +12,7 @@ const TrendingHot = () => {
   return (
     <div>
       <div className="trendingHot__header">
-        <div>
+        <div className="trendingHot__imgDiv">
           <img
             src={TrendingHotIcon}
             alt="chairIcon"

@@ -14,7 +14,6 @@ import TrendingCommunities from "../Trending/Community";
 const Home = () => {
   return (
     <div className="home">
-      <Header />
       <SubredditHeader />
       <div className="home__content">
         <div>
@@ -24,7 +23,7 @@ const Home = () => {
         <div></div>
         <div>
           <AboutCommunity />
-          {/*<TrendingHot />*/}
+          <TrendingHot />
           <FilterByFlair />
           <Moderators />
           <TrendingCommunities />

@@ -1,5 +1,5 @@
 .subredditHeader {
-  height: 160px;
+  height: 140px;
   width: 100%;
   display: grid;
   grid-template-rows: 50% 50%;
@@ -14,10 +14,9 @@
   background-color: white;
 }
 .subredditHeader__img {
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
-  margin-right: 20px;
 }
 .subredditHeader__button {
   width: 80px;
@@ -31,12 +30,12 @@
   margin-top: 15px;
 }
 .subreddit_heading {
-  font-size: 27px;
+  font-size: 24px;
 }
 .subredditHeader__imgDiv {
   border-radius: 50%;
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   z-index: 2;
   background-color: white;
   margin-top: -10px;
